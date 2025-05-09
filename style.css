@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;    
+}
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #F2EFEF;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+header,
+footer {
+    padding: 20px 0;
+}
+
+.header-parent,
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right,
+.footer-right {
+    display: flex;
+    gap: 30px;
+}
+
+.header-right a,
+.footer-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.text {
+    font-family: "Itim", cursive;
+    text-align: center;
+}
+
+.card {
+    padding: 20px;
+    width: 25%;
+    background-color: #FCF2E5;
+}
+
+.card1 {
+    background-color: white;
+}
+
+.image {
+    width: 100%;
+}
+
+.card-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.card2 {
+    overflow: hidden;
+    background-color: #fff;
+    width: 360px;
+    padding: 20px;
+}
+
+.card2 img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.card2 h1 {
+  color: #009AF0;
+}
+
+.card2 button {
+    width: 144px;
+    height: 69px;
+    background-color: #009AF0;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.card2 button:active {
+    cursor: progress;
+}
+
